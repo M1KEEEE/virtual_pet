@@ -1,8 +1,8 @@
 """
-	рисунки питомца,
-	способности питомца,
-	показатели питомца,
-	время
+    рисунки питомца,
+    способности питомца,
+    показатели питомца,
+    время
 """
 
 import tkinter as tk
@@ -10,13 +10,13 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 class App(tk.Tk):
-	def __init__(self):
-		super().__init__()
+    def __init__(self):
+        super().__init__()
 
 
 if __name__== '__main__':
-	window = App()
-	window.mainloop()
+    window = App()
+    window.mainloop()
 
 canvas = tkinter.Canvas(root, height=400, width=700)
 image = Image.open("happy.png")
